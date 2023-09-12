@@ -156,3 +156,25 @@ body{
 .balloon:hover{
     display: none;
 }
+
+
+/* button */
+/* Style for the link */
+a {
+    height: 30px;
+    width: 150px;
+    font-size: 23px;
+    display: inline-block;
+    padding: 10px 20px;
+    bottom: 10px;
+    background-color: #007bff; /* Change this to your desired background color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underlines from the link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect */
+a:hover {
+    background-color: #d6e947; /* Change this to your desired hover background color */
+}
